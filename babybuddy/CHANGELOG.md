@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 2.10.0-ng.5
+### 🐞 Fixed
+- Default 10/20/30-minute breastfeeding backfill shortcuts to Both breasts
+  instead of the form's Bottle fallback.
+
 ## 2.10.0-ng.4
 ### 🐞 Fixed
 - Version CSS and JavaScript URLs per immutable application build so mobile
