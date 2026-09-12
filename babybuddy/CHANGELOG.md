@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2.10.0-ng.4
+### 🐞 Fixed
+- Version CSS and JavaScript URLs per immutable application build so mobile
+  browsers load caregiver UX updates immediately after an add-on upgrade.
+- Retain non-manifest static storage compatibility for Baby Buddy root assets.
+
 ## 2.10.0
 ### ⬆️ Updated
 - Bumps bundled Baby Buddy to [2.10.0](https://github.com/babybuddy/babybuddy/releases/tag/v2.10.0) (from 2.9.2).

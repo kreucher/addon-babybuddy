@@ -6,6 +6,7 @@ FROM ${BUILD_FROM}
 # v2.10.0 tarball (build.yaml `args` or docker --build-arg). Leave unset for release builds.
 ARG BABYBUDDY_GIT_REF=
 ARG BABYBUDDY_GIT_URL=https://github.com/babybuddy/babybuddy.git
+ENV STATIC_VERSION=${BABYBUDDY_GIT_REF}
 
 VOLUME ["/run"]
 

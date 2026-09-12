@@ -9,9 +9,15 @@ USE_X_FORWARDED_PORT = True
 ENABLE_HOME_ASSISTANT_SUPPORT = True
 MESSAGE_STORAGE = "django.contrib.messages.storage.session.SessionStorage"
 
-# Keep Baby Buddy's standard CompressedManifestStaticFilesStorage. The add-on
-# completes collectstatic before Gunicorn starts, so content-hashed asset URLs
-# are available and browser caches cannot retain CSS/JS across upgrades.
+# Use non-manifest whitenoise storage because some root assets are intentionally
+# outside the manifest. The application adds an immutable build query string to
+# CSS and JavaScript URLs so browser caches still refresh on upgrades.
+STORAGES = {
+    **STORAGES,
+    "staticfiles": {
+        "BACKEND": "whitenoise.storage.CompressedStaticFilesStorage",
+    },
+}
 
 # Comma-separated origins: strip segments and drop empties. Scheme validation
 # for each segment happens in etc/services.d/babybuddy/run before Gunicorn.
