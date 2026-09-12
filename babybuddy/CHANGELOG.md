@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 2.10.0-ng.6
+### 🆕 Added
+- Show the latest breastfeeding session on the caregiver breastfeeding card.
+- Add dashboard quick logs for 30/40/50/60 mL formula bottles, wet/yellow
+  solid/brown solid diapers, and 5/10/15-minute tummy-time sessions ending now.
+- Add Japanese labels and save confirmations for the new caregiver controls.
+
 ## 2.10.0-ng.5
 ### 🐞 Fixed
 - Default 10/20/30-minute breastfeeding backfill shortcuts to Both breasts
