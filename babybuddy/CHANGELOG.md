@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 2.10.0-ng.7
+### 🐞 Fixed
+- Preserve each dashboard quick-log value when the global submit guard disables
+  buttons to prevent duplicate submissions.
+
 ## 2.10.0-ng.6
 ### 🆕 Added
 - Show the latest breastfeeding session on the caregiver breastfeeding card.
