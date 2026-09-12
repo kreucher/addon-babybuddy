@@ -9,15 +9,9 @@ USE_X_FORWARDED_PORT = True
 ENABLE_HOME_ASSISTANT_SUPPORT = True
 MESSAGE_STORAGE = "django.contrib.messages.storage.session.SessionStorage"
 
-# Use non-manifest whitenoise storage to avoid ValueError on missing entries
-# (CompressedManifestStaticFilesStorage requires a perfect collectstatic run
-# which is brittle when plugins add static files at runtime)
-STORAGES = {
-    **STORAGES,
-    "staticfiles": {
-        "BACKEND": "whitenoise.storage.CompressedStaticFilesStorage",
-    },
-}
+# Keep Baby Buddy's standard CompressedManifestStaticFilesStorage. The add-on
+# completes collectstatic before Gunicorn starts, so content-hashed asset URLs
+# are available and browser caches cannot retain CSS/JS across upgrades.
 
 # Comma-separated origins: strip segments and drop empties. Scheme validation
 # for each segment happens in etc/services.d/babybuddy/run before Gunicorn.
