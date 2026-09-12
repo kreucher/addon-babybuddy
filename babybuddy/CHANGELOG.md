@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2.10.0-ng.9
+### ✅ Promoted
+- Promote the caregiver-tested Kreucher build from canary to production.
+- Rename the add-on and update its description; application behavior is
+  unchanged from `2.10.0-ng.8`.
+
 ## 2.10.0-ng.8
 ### 💄 Changed
 - Move the latest breastfeeding session into the card's primary recency area,
