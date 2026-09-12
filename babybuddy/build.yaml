@@ -4,4 +4,4 @@ build_from:
   amd64: ghcr.io/hassio-addons/base:20.0.1
 args:
   BABYBUDDY_GIT_URL: https://github.com/kreucher/babybuddy.git
-  BABYBUDDY_GIT_REF: kreucher-v2.10.0-ux.1
+  BABYBUDDY_GIT_REF: kreucher-v2.10.0-ux.2
