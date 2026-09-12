@@ -1,11 +1,10 @@
 ---
-name: Baby Buddy
-version: 2.10.0
+name: Baby Buddy - Kreucher Canary
+version: 2.10.0-ng.1
 homeassistant: 2023.6.2
 slug: baby_buddy
-image: "ottpeterr/image-{arch}-babybuddy"
-description: Track sleep, feedings, diaper changes, tummy time and more!
-url: https://github.com/OttPeterR/addon-babybuddy
+description: Isolated caregiver UX canary for Baby Buddy
+url: https://github.com/kreucher/addon-babybuddy
 arch:
   - aarch64
   - amd64
