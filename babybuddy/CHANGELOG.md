@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 2.10.0-ng.8
+### 💄 Changed
+- Move the latest breastfeeding session into the card's primary recency area,
+  above its caregiver controls.
+- Use concise, constant activity card titles by removing the redundant
+  “Last” prefix.
+
 ## 2.10.0-ng.7
 ### 🐞 Fixed
 - Preserve each dashboard quick-log value when the global submit guard disables

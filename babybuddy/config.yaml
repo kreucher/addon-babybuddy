@@ -1,6 +1,6 @@
 ---
 name: Baby Buddy - Kreucher Canary
-version: 2.10.0-ng.7
+version: 2.10.0-ng.8
 homeassistant: 2023.6.2
 slug: baby_buddy
 description: Isolated caregiver UX canary for Baby Buddy
