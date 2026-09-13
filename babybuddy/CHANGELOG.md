@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.10.0-ng.10
+### 🆕 Added
+- Add a 70 mL formula bottle quick-log action to the caregiver dashboard.
+
 ## 2.10.0-ng.9
 ### ✅ Promoted
 - Promote the caregiver-tested Kreucher build from canary to production.

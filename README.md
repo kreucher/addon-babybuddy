@@ -5,7 +5,7 @@ Run Baby Buddy on Home Assistant!
 ## Kreucher caregiver UX build
 
 This downstream build packages the immutable
-`kreucher-v2.10.0-ux.7` application tag from
+`kreucher-v2.10.0-ux.8` application tag from
 [kreucher/babybuddy](https://github.com/kreucher/babybuddy). It is intentionally
 This downstream build can be installed beside the stock add-on with an
 independent `/data` volume for safe testing and migration.
